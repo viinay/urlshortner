@@ -18,7 +18,7 @@ npm run start --> node app.js (check package.json) for production
 ```
 
 ## APIs
-*map a url to slug/create short url
+*map a url to slug/create short url*
 ```
 POST /url
 body {
@@ -31,7 +31,7 @@ response {
   _id
 }
 ```
-*redirect url
+*redirect url*
 ```
 GET /:slug
 response redirects to mapped url
