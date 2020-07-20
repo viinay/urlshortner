@@ -1,4 +1,4 @@
-##modules
+## modules
 
 1. express - framework for api server
 2. cors - CORS handling
@@ -18,6 +18,7 @@ npm run start --> node app.js (check package.json) for production
 ```
 
 ## APIs
+*map a url to slug/create short url
 ```
 POST /url
 body {
@@ -30,7 +31,7 @@ response {
   _id
 }
 ```
-
+*redirect url
 ```
 GET /:slug
 response redirects to mapped url
