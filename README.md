@@ -6,7 +6,7 @@
 4. monk - library to communicate with MongoDB
 5. yup - schema validation library
 6. morgan - logger
-7 nanoid - to generate short random ids
+7. nanoid - to generate short random ids
 8. nodemon - dev dependency which automatically run nodejs based applications when files are modified
 
 ## get started
